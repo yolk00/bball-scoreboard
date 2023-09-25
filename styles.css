@@ -18,6 +18,10 @@ h1 {
   width: 50%;
 }
 
+.full {
+  width: 100%;
+}
+
 .centered {
   display: flex;
   justify-content: center;
@@ -25,10 +29,10 @@ h1 {
 
 .sqr-bg {
   background-color: #171717;
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
   border-radius: 10px;
-  padding: 5px 10px 12px;
+  padding: 5px 20px 15px;
 }
 
 span {
@@ -76,4 +80,8 @@ button {
   margin: 25px auto 0;
   background-color: whitesmoke;
   padding: 15px;
+}
+
+#period {
+  font-size: 40px;
 }
